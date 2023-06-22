@@ -67,6 +67,9 @@ body {
   height: auto;
 }
 
+.mee{
+  font-size: 26px;
+}
 @media screen and (max-width: 750px) {
   .one,
   .two {
@@ -98,13 +101,12 @@ body {
     display: block;
   }
   .faq {
-    margin-top: 50px;
+    margin-top: 80px;
   }
-
-  .middle-img {
-    display: flex;
-    justify-content: center;
-    border: 1px solid salmon;
+  .middle {
+    display: block;
+    margin: 13%;
+    width: 350px;
   }
 }
 

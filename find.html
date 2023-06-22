@@ -22,9 +22,31 @@
         <img class="first" src="images/coffee.jpeg" alt="" />
         <div class="userInput second">
           <h2 class="targetme">Discover New Connections</h2>
-          <p class="targetme me">Find someone like you by typing your name below:</p>
+          <p class="targetme me">
+            Find someone like you by completing the questionnaire below:
+          </p>
           <form action="">
-            <input type="text" />
+            <label class="regionbox" for="country-select">
+              <select name="country" id="country-select" required>
+                <option value="">--Pick your region--</option>
+                <option value="namerica">North America</option>
+                <option value="samerica">South America</option>
+                <option value="africa">Africa</option>
+                <option value="middleeast">Middle East</option>
+                <option value="easia">East Asia</option>
+                <option value="sasia">South Asia</option>
+                <option value="europe">Europe</option>
+                <option value="russia">Russia</option>
+                <option value="ant">Antartica</option>
+                <option value="aus">Australia</option>
+                <option value="mars">Mars</option></option>
+              </select>
+            </label>
+            <br><br>
+            <input type="text" class="namebox" placeholder="Enter name" required/>
+            <br><br>
+            <input type="number" class="age" placeholder="Enter age" required>
+            <br><br>
             <input class="button" type="submit" value="Search" />
           </form>
         </div>

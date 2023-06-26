@@ -2,8 +2,11 @@
   box-sizing: border-box;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 30px;
 }
-
+p {
+  font-size: 18px;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -39,6 +42,7 @@ img {
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
+  
 }
 
 h2 {
@@ -63,6 +67,9 @@ footer {
 }
 .mee {
   font-size: 26px;
+}
+img{
+  border-radius: 10px;
 }
 .text {
   background-color: rgba(255, 237, 198, 0.435);

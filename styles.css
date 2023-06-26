@@ -42,7 +42,6 @@ img {
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
-  
 }
 
 h2 {
@@ -68,7 +67,7 @@ footer {
 .mee {
   font-size: 26px;
 }
-img{
+img {
   border-radius: 10px;
 }
 .text {
@@ -118,7 +117,7 @@ img{
   }
   .middle {
     display: block;
-    margin: 18%;
+    margin: 4%;
     width: 400px;
   }
   img {

@@ -13,6 +13,7 @@
         <li><a href="index.html" class="home">Home</a></li>
         <li><a href="find.html">Search</a></li>
         <li><a href="game.html">Game Nights</a></li>
+        <li><a href="stories.html">Stories</a></li>
         <li><a class="this" href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
@@ -22,18 +23,18 @@
         <h3>Let us know down below!</h3>
       </div>
       <div class="form">
-        <form action="">
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
           <label class="first-name" for="first-name">
             First name:
-            <input required type="text" id="first-name" />
+            <input required type="text" id="first-name" name="first-name" />
           </label>
           <label class="last-name" for="last-name">
             Last name:
-            <input required type="text" id="last-name" />
+            <input required type="text" id="last-name" name="last-name" />
           </label>
           <label class="email" for="email">
             Enter email:
-            <input required type="email" id="email" />
+            <input required type="email" id="email" name="email" />
           </label>
           <textarea
             required
@@ -43,7 +44,7 @@
             cols="20"
             rows="2"
           ></textarea>
-          <input class="submit" type="submit" />
+          <input class="submit" type="submit" name="submit" />
         </form>
       </div>
     </main>

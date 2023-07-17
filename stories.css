@@ -46,7 +46,7 @@ h1 {
 }
 
 main {
-  padding: 100px 10%;
+  padding: 60px 10%;
 }
 
 main h2 {
@@ -59,6 +59,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   font-size: 18px;
+  background-color: rgba(255, 254, 253, 0.479);
 }
 
 table th,
@@ -77,3 +78,20 @@ footer {
   text-align: center;
   margin-bottom: 100px;
 }
+.bottom-title{
+  text-align: center;
+  background-color: rgba(255, 235, 205, 0.668);
+}
+
+
+video {
+  width: 70%;
+  height: auto;
+  opacity: 0.9;
+  z-index: -1;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  
+
+}
+

@@ -72,44 +72,57 @@
       </div>
       <div class="faq">
         <h3 class="mee">FAQs:</h3>
-        <p>
-          <strong>Q: How can I join Name-Friends?</strong><br /><br />
-          A: Joining Name-Friends is easy! Simply visit our website and click on
-          the sign-up button. Provide your name, email, and create a unique
-          username to get started. <br />
+        <div class="faq-content">
+          <p>
+            <strong>Q: How can I join Name-Friends?</strong><br /><br />
+            A: Joining Name-Friends is easy! Simply visit our website and click
+            on the sign-up button. Provide your name, email, and create a unique
+            username to get started. <br />
 
-          <br />
-          <strong>Q: Can I organize my own meetups?</strong><br /><br />
-          A: Absolutely! As a Name-Friends member, you have the freedom to
-          organize your own meetups and invite other users with the same name.
-          It's a great way to take the initiative and connect with like-minded
-          individuals. <br />
-          <br />
-          <strong>Q: What if I don't find anyone with the same name?</strong
-          ><br /><br />
-          A: While our primary focus is on connecting users with the same name,
-          we welcome individuals who are interested in meeting and interacting
-          with name buddies. You can still join Name-Friends, participate in
-          meetups, and enjoy the community experience. <br />
-          <br />
-          <strong>Q: What if I don't find anyone with the same name?</strong
-          ><br />
-          <br />
-          A: While our primary focus is on connecting users with the same name,
-          we welcome individuals who are interested in meeting and interacting
-          with name buddies. You can still join Name-Friends, participate in
-          meetups, and enjoy the community experience. <br />
-          <br />
-        </p>
+            <br />
+            <strong>Q: Can I organize my own meetups?</strong><br /><br />
+            A: Absolutely! As a Name-Friends member, you have the freedom to
+            organize your own meetups and invite other users with the same name.
+            It's a great way to take the initiative and connect with like-minded
+            individuals. <br />
+            <br />
+            <strong>Q: What if I don't find anyone with the same name?</strong
+            ><br /><br />
+            A: While our primary focus is on connecting users with the same
+            name, we welcome individuals who are interested in meeting and
+            interacting with name buddies. You can still join Name-Friends,
+            participate in meetups, and enjoy the community experience. <br />
+            <br />
+            <strong>Q: What if I don't find anyone with the same name?</strong
+            ><br />
+            <br />
+            A: While our primary focus is on connecting users with the same
+            name, we welcome individuals who are interested in meeting and
+            interacting with name buddies. You can still join Name-Friends,
+            participate in meetups, and enjoy the community experience. <br />
+            <br />
+          </p>
+        </div>
       </div>
     </div>
 
     <br />
 
     <footer>
-      <br>
-      <p>&copy; 2023 Name-Friends. All rights reserved. | Last Updated: July 8, 2023 | Contact: support@namefriends.com</p>
+      <br />
+      <p>
+        &copy; 2023 Name-Friends. All rights reserved. | Last Updated: July 8,
+        2023 | Contact: support@namefriends.com
+      </p>
     </footer>
-    
+    <script>
+      function toggleFAQs() {
+        const faqContent = document.querySelector(".faq");
+        faqContent.classList.toggle("show");
+      }
+
+      const faqHeader = document.querySelector(".mee");
+      faqHeader.addEventListener("click", toggleFAQs);
+    </script>
   </body>
 </html>
